@@ -16,20 +16,25 @@ body {
     line-height: 160%;
 }
 
-header{
+header {
     margin-top: 32px;
 }
 
-header div{
+header div {
     width: 120px;
     margin: auto;
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     border-radius: 50%;
     display: flex;
     padding: 4px;
+    transition: transform 0.5s;
 }
 
-header div img{
+header div:hover {
+    transform: scale(1.1);
+}
+
+header div img {
     width: 100%;
     border-radius: 50%;
 }
@@ -49,7 +54,7 @@ section {
     border-radius: 10px;
 }
 
-section div{
+section div {
     background-color: #2A2634;
     padding: 32px;
     padding-top: 24px;
@@ -60,7 +65,7 @@ section h2 {
     letter-spacing: -0.47px;
 }
 
-section p{
+section p {
     letter-spacing: -0.18px;
     color: #A1A1AA;
 }
@@ -73,14 +78,21 @@ section ul {
     margin-top: 24px;
 }
 
-.games-list img{
+section ul li {
+    transition: transform 0.5s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+.games-list img {
     width: 90px;
     border-radius: 8px;
 }
 
-.channel-list img{
+.channel-list img {
     width: 70px;
     border-radius: 50%;
     border: 2px solid #443E54;
 }
-
