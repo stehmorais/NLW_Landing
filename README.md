@@ -1,7 +1,7 @@
 # Projeto Esports NLW
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/97535906/189659465-6a347a87-b084-4164-a568-aa6a7c126ce3.png" width="600"/>
+   <img src="https://user-images.githubusercontent.com/97535906/190470242-f9133670-6470-44e9-bda3-47feccfca329.png" width="600"/>
 </p>
 
 <br>
