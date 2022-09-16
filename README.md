@@ -6,4 +6,6 @@
 
 <br>
 
-- Primeira parte do meu projeto da Esports NLW
+- Projeto do evento Esports NLW
+
+- Deploy: https://nlw-landing.vercel.app/
